@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../assets/style/reset.css">
+    <link rel="stylesheet" href="../../assets/style/fonts.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style@1000px.css" media="screen and (max-width: 1366px) ">
+    <link rel="stylesheet" href="style@640px.css" media="screen and (max-width: 967px) ">
+    <link rel="stylesheet" href="style@320px.css" media="screen and (max-width: 321px) ">
+
+    <title>Donate</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="center">
+            <div class="header__logo">
+                <a href="../../index.html" class="logo">
+
+                    <h1 class="header__logo-text">PetStory online</h1>
+                </a>
+            </div>
+            <nav class="header__menu">
+                <ul class="menu-list">
+                    <li class="menu-item btn"><a href="../../index.html">About</a></li>
+                    <li class="menu-item btn"><a href="#">Map</a></li>
+                    <li class="menu-item btn"><a href="#">Zoos</a></li>
+                    <li class="menu-item btn active"><a href="index.html">Donate</a></li>
+                    <li class="menu-item btn"><a href="#">Contact us</a></li>
+                    <li class="menu-item btn">
+                        <a href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online">Designed by ©</a>
+                    </li>
+
+                </ul>
+            </nav>
+                <!-- ---------------------- -->
+                <div class="hamburger-menu">
+                    <input id="menu__toggle" type="checkbox" />
+                    <label class="menu__btn" for="menu__toggle">
+                        <span></span>
+                    </label>
+                    <ul class="menu__box">
+                        <div class="menu__logo">
+                            <a href="../../index.html">
+                                <h1 class="menu__logo-text">PetStory online</h1>
+                            </a>
+                        </div>
+                        <li><a class="menu__item" href="../../index.html">About</a></li>
+                        <li><a class="menu__item" href="#">Map</a></li>
+                        <li><a class="menu__item" href="#">Zoos</a></li>
+                        <li><a class="menu__item" href="index.html">Donate</a></li>
+                        <li><a class="menu__item" href="#">Contact us</a></li>
+                        <li><a class="menu__item"
+                                href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online">Designed by
+                                ©</a></li>
+                    </ul>
+                    <div id="black" class="black"></div>
+
+                </div>
+                <!-- ---------------------- -->
+        </div>
+    </header>
+    <section class="banner">
+        <div class="panda"></div>
+    </section>
+
+    <main>
+        <div class="center">
+            <div class="entry">
+                <h3>THE ZOO HAS OFFICIALLY REOPENED BUT WE STILL NEED YOUR HELP!</h3>
+                <p>Even though the Zoo has been able to reopen, we are at a greatly reduced capacity with educational
+                    programs
+                    and public and private events cancelled or postponed for additional months. We need you now more
+                    than
+                    ever to
+                    help ensure that we overcome these challenges. We have been actively raising funds in the community,
+                    and
+                    we
+                    are grateful for the generosity. But much more support is still needed, and we need your help!
+                    Please
+                    consider
+                    a gift today – no matter what size – to help us sustain our mission.</p>
+            </div>
+            <div class="title">
+                <h3>Donation Information</h3>
+            </div>
+            <div class="pick-block-wrapper">
+
+                <div class="pick-block-box">
+                    <div class="box__title">
+                        <h2>Pick and feed a friend</h2>
+                        <p>We know the animals bring you joy, and in these extraordinary times, we’re glad.</p>
+                    </div>
+                    <div class="box__animals">
+                        <div class="info">
+                            <h2>4</h2>
+                            <p>Panda diet for the day.</p>
+                        </div>
+                        <div class="img"></div>
+                    </div>
+                    <div class="box__amount">
+                        <h4>Amount</h4>
+                        <!---------------------------------------------------->
+                        <div class="amount-bar">
+                            <div class="line">
+                            </div>
+                            <!--TODO: labels-->
+                            <label class="one" for="">
+                                <input type="radio" name="amount">
+                                <p>$5000</p>
+                            </label>
+                            <label for="">
+                                <input type="radio" name="amount">
+                                <p>$2000</p>
+                            </label>
+                            <label for="">
+                                <input checked type="radio" name="amount">
+                                <p>$1000</p>
+                            </label>
+                            <label for="">
+                                <input type="radio" name="amount">
+                                <p>$500</p>
+                            </label>
+                            <label for="">
+                                <input type="radio" name="amount">
+                                <p>$250</p>
+                            </label>
+                            <label for="">
+                                <input type="radio" name="amount">
+                                <p>$100</p>
+                            </label>
+                            <label for="">
+                                <input type="radio" name="amount">
+                                <p>$50</p>
+                            </label>
+                            <label for="">
+                                <input type="radio" name="amount">
+                                <p>$25</p>
+                            </label>
+                        </div>
+                        <!---------------------------------------------------->
+                    </div>
+                    <div class="box__form">
+                        <!---------------------------------------------------->
+                        <div class="input-number">
+                            <input class="input-sum" type="number" min="25" max="5000"
+                                oninput="if (value.length> 4) value = value.slice (0,4)" placeholder="Another amount">
+                            <div class="dollar-icon">
+                            </div>
+                        </div>
+                        <div class="radio">
+                            <input type="radio" name="rb" id="rb1"> <label for="rb1">Monthly</label>
+                            <input type="radio" name="rb" id="rb2" checked> <label for="rb2">Once</label>
+                        </div>
+                        <button class="info-btn btn">Feed a friend now</button>
+                        <p>Share with your friends on social networks </p>
+                        <!---------------------------------------------------->
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="center">
+            <div class="fooret-container">
+                <div class="section6__wraper-left">
+                    <div class="s6w-logo wl-logo">
+                        <div class="header__logo">
+                            <a href="../../index.html">
+                                <h4 class="header__logo-text">PetStory online</h4>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="wl-btn">
+                        <a href="index.html">
+                            <button class="s6w-btn info-btn btn">donate for volunteers</button>
+                        </a>
+                    </div>
+                    <div class="wl-soc">
+                        <a href="https://ru-ru.facebook.com/">
+                            <div><img src="../../assets/img/icons/Fill 211.svg" alt="Facebook"></div>
+                            <p>Facebook</p>
+                        </a>
+                    </div>
+                    <div class="wl-soc">
+                        <a href="https://twitter.com/?lang=ru">
+                            <div><img src="../../assets/img/icons/Fill 172.svg" alt="Twitter"></div>
+                            <p>Twitter</p>
+                        </a>
+                    </div>
+                    <div class="wl-soc">
+                        <a href="https://www.instagram.com/">
+                            <div><img src="../../assets/img/icons/Fill 166.svg" alt="Instagram"></div>
+                            <p>Instagram</p>
+                        </a>
+                    </div>
+                    <div class="wl-soc last">
+                        <a href="https://www.youtube.com/">
+                            <div><img src="../../assets/img/icons/Fill 213.svg" alt="YouTube"></div>
+                            <p>YouTube</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="section6__wraper-center">
+                    <ul class="s6w menu-list">
+                        <li class="s6w menu-item btn"><a href="../../index.html">About</a></li>
+                        <li class="menu-item btn"><a href="#">Map</a></li>
+                        <li class="menu-item btn"><a href="#">Zoos</a></li>
+                        <li class="s6w menu-item btn"><a href="#">Contact us</a></li>
+                    </ul>
+                </div>
+                <div class="section6__wraper-right">
+                    <p class="s6w subtitle">Subscribe to our news</p>
+                    <form action="#0">
+                        <div>
+                            <input class="a6w-inp" type="email" id="email" name="email" required
+                                placeholder="Enter your email" />
+
+                            <input class="requirements" type="submit" value="Submit" />
+                        </div>
+                    </form>
+                    <div class="s6w-bb">
+                        <p class="avt">Designed by Alisa Samborskaya</p>
+                        <p class="avt">©RSSchool & ©Yem Digital 2021</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
